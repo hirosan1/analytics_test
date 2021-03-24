@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rentaCars</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+  </head>
+  <body>
+    <main id="homeScreen">
+      <section id="top">
+        <button id="signOutButton"><span><i class="material-icons">logout</i>
+            Signout</span></button>
+      </section>
+      <section id="content">
+        <button id="event1"><span><i class="material-icons">alarm</i>
+            Event1</span></button>
+        <button id="event2"><span><i class="material-icons">alarm</i>
+            Event2</span></button>
+        <button id="event3"><span><i class="material-icons">alarm</i>
+            Event3</span></button>
+        <button id="event4"><span><i class="material-icons">alarm</i>
+            Event4</span></button>
+        <button id="event5"><span><i class="material-icons">alarm</i>
+            Event5</span></button>
+      </section>
+    </main>
+    <main id="loginScreen">
+      <button id="anonymousSignInButton"><span><i class="material-icons">login</i>
+          Login Anonymously</span></button>
+      <button id="googleSignInButton"><span><i class="material-icons">alternate_email</i>
+          Login with Google</span></button>
+    </main>
+    <script src="/__/firebase/8.3.1/firebase-app.js"></script>
+    <script src="/__/firebase/8.3.1/firebase-analytics.js"></script>
+    <script src="/__/firebase/8.3.1/firebase-auth.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
